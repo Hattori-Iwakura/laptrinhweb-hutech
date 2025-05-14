@@ -273,3 +273,21 @@ ul {
 .copyright {
     text-align: center;
 }
+
+.btn {
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 30px;
+    transition: background 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background: #563434;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
